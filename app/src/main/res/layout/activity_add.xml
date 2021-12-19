@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Add Phone"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@color/white"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:text="Marque"/>
+
+    <EditText
+        android:id="@+id/Marque"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:textColor="@color/black"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="15dp"
+        android:text="Modele"/>
+
+    <EditText
+        android:id="@+id/Modele"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:textColor="@color/black"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="15dp"
+        android:text="Description"/>
+
+    <EditText
+        android:id="@+id/Specs"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:textColor="@color/black"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="15dp"
+        android:text="Image"/>
+
+    <EditText
+        android:id="@+id/Img"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:textColor="@color/black"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/rounded"
+        android:text="Add"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="50dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:layout_marginBottom="50dp"
+        android:layout_weight="1"
+        android:text="Back"
+        android:textSize="23dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"/>
+</LinearLayout>
+
+</LinearLayout>
